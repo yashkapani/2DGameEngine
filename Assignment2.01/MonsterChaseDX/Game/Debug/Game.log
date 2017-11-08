@@ -1,0 +1,47 @@
+﻿Build started 1/4/2016 8:56:53 PM.
+     1>Project "D:\eng1\Assignment2.01\MonsterChaseDX\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\eng1\Assignment2.01\MonsterChaseDX\Exports\Cheesy /ID:\eng1\Assignment2.01\MonsterChaseDX\MonsterEngine /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\eng1\assignment2.01\monsterchasedx\game\main.cpp(51): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+     1>d:\eng1\assignment2.01\monsterchasedx\game\main.cpp(52): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\eng1\Assignment2.01\MonsterChaseDX\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\eng1\Assignment2.01\MonsterChaseDX\Exports\Cheesy /LIBPATH:D:\eng1\Assignment2.01\MonsterChaseDX\MonsterEngine Cheesy_Debug.lib d3dx9d.lib dxerr.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib MonsterEngine.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\eng1\Assignment2.01\MonsterChaseDX\Debug\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\eng1\Assignment2.01\MonsterChaseDX\Debug\Game.lib" /MACHINE:X86 Debug\main.obj
+     1>MonsterEngine.lib(SmallBlockAllocator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+     1>MonsterEngine.lib(InputMove.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+     1>MonsterEngine.lib(Random.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+     1>MonsterEngine.lib(Actor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+     1>MonsterEngine.lib(BitField.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+     1>Cheesy_Debug.lib(DXUT.obj) : error LNK2019: unresolved external symbol __imp__swprintf_s referenced in function "wchar_t const * __stdcall DXUTGetFrameStats(bool)" (?DXUTGetFrameStats@@YGPB_W_N@Z)
+     1>Cheesy_Debug.lib(DXUTenum.obj) : error LNK2001: unresolved external symbol __imp__swprintf_s
+     1>Cheesy_Debug.lib(DXUTmisc.obj) : error LNK2019: unresolved external symbol __imp__vswprintf_s referenced in function "void __cdecl DXUTOutputDebugStringW(wchar_t const *,...)" (?DXUTOutputDebugStringW@@YAXPB_WZZ)
+     1>Cheesy_Debug.lib(DXUTmisc.obj) : error LNK2019: unresolved external symbol __imp__vsprintf_s referenced in function "void __cdecl DXUTOutputDebugStringA(char const *,...)" (?DXUTOutputDebugStringA@@YAXPBDZZ)
+     1>dxerr.lib(dxerrw.obj) : error LNK2019: unresolved external symbol __vsnwprintf referenced in function "long __stdcall StringVPrintfWorkerW(unsigned short *,unsigned int,unsigned int *,unsigned short const *,char *)" (?StringVPrintfWorkerW@@YGJPAGIPAIPBGPAD@Z)
+     1>MonsterEngine.lib(BitField.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ) referenced in function "public: __thiscall std::_String_val<struct std::_Simple_types<char> >::_String_val<struct std::_Simple_types<char> >(void)" (??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ)
+     1>MonsterEngine.lib(SmallBlockAllocator.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(InputMove.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(Random.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(Actor.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(BitField.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ) referenced in function "public: __thiscall std::_String_val<struct std::_Simple_types<char> >::~_String_val<struct std::_Simple_types<char> >(void)" (??1?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ)
+     1>MonsterEngine.lib(SmallBlockAllocator.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(InputMove.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(Random.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(Actor.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+     1>MonsterEngine.lib(BitField.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ) referenced in function "public: void __thiscall std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Free_proxy(void)" (?_Free_proxy@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ)
+     1>MonsterEngine.lib(SmallBlockAllocator.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+     1>MonsterEngine.lib(InputMove.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+     1>MonsterEngine.lib(Random.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+     1>MonsterEngine.lib(Actor.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+     1>MonsterEngine.lib(BitField.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z) referenced in function "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall std::_System_error_category::message(int)const " (?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z)
+     1>MonsterEngine.lib(SmallBlockAllocator.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>MonsterEngine.lib(InputMove.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>MonsterEngine.lib(Random.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>MonsterEngine.lib(Actor.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>D:\eng1\Assignment2.01\MonsterChaseDX\Debug\Game.exe : fatal error LNK1120: 8 unresolved externals
+     1>Done Building Project "D:\eng1\Assignment2.01\MonsterChaseDX\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.29

@@ -1,0 +1,30 @@
+﻿Build started 1/4/2016 8:53:50 PM.
+     1>Project "D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Exports\Cheesy /LIBPATH:D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\MonsterEngine /LIBPATH:D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Exports\luaplus Cheesy_Debug.lib d3dx9d.lib dxerr.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib MonsterEngine.lib luaplusstatic51_1201.Debug.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Debug\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Debug\Game.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\main.obj
+         Debug\UnitTestStrings.obj
+     1>Cheesy_Debug.lib(Core.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Game.obj
+     1>Cheesy_Debug.lib(LargeVertexBuffer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Game.obj
+     1>Cheesy_Debug.lib(DXUTmisc.obj) : warning LNK4217: locally defined symbol _vsprintf_s imported in function "void __cdecl DXUTOutputDebugStringA(char const *,...)" (?DXUTOutputDebugStringA@@YAXPBDZZ)
+     1>Cheesy_Debug.lib(Core.obj) : warning LNK4217: locally defined symbol ??0_Container_base12@std@@QAE@XZ (public: __thiscall std::_Container_base12::_Container_base12(void)) imported in function "public: __thiscall std::_Vector_val<struct std::_Simple_types<class Cheesy::LargeVertexBuffer *> >::_Vector_val<struct std::_Simple_types<class Cheesy::LargeVertexBuffer *> >(void)" (??0?$_Vector_val@U?$_Simple_types@PAVLargeVertexBuffer@Cheesy@@@std@@@std@@QAE@XZ)
+     1>Cheesy_Debug.lib(Core.obj) : warning LNK4217: locally defined symbol ??1_Container_base12@std@@QAE@XZ (public: __thiscall std::_Container_base12::~_Container_base12(void)) imported in function "public: __thiscall std::_Vector_val<struct std::_Simple_types<class Cheesy::LargeVertexBuffer *> >::~_Vector_val<struct std::_Simple_types<class Cheesy::LargeVertexBuffer *> >(void)" (??1?$_Vector_val@U?$_Simple_types@PAVLargeVertexBuffer@Cheesy@@@std@@@std@@QAE@XZ)
+     1>Cheesy_Debug.lib(Core.obj) : warning LNK4217: locally defined symbol ?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ (public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const ) imported in function "protected: void __thiscall std::vector<class Cheesy::LargeVertexBuffer *,class std::allocator<class Cheesy::LargeVertexBuffer *> >::_Orphan_range(class Cheesy::LargeVertexBuffer * *,class Cheesy::LargeVertexBuffer * *)const " (?_Orphan_range@?$vector@PAVLargeVertexBuffer@Cheesy@@V?$allocator@PAVLargeVertexBuffer@Cheesy@@@std@@@std@@IBEXPAPAVLargeVertexBuffer@Cheesy@@0@Z)
+     1>Cheesy_Debug.lib(Core.obj) : warning LNK4217: locally defined symbol ?_Orphan_all@_Container_base12@std@@QAEXXZ (public: void __thiscall std::_Container_base12::_Orphan_all(void)) imported in function "public: void __thiscall std::_Vector_alloc<0,struct std::_Vec_base_types<class Cheesy::LargeVertexBuffer *,class std::allocator<class Cheesy::LargeVertexBuffer *> > >::_Free_proxy(void)" (?_Free_proxy@?$_Vector_alloc@$0A@U?$_Vec_base_types@PAVLargeVertexBuffer@Cheesy@@V?$allocator@PAVLargeVertexBuffer@Cheesy@@@std@@@std@@@std@@QAEXXZ)
+     1>Cheesy_Debug.lib(DXUT.obj) : error LNK2019: unresolved external symbol __imp__swprintf_s referenced in function "wchar_t const * __stdcall DXUTGetFrameStats(bool)" (?DXUTGetFrameStats@@YGPB_W_N@Z)
+     1>Cheesy_Debug.lib(DXUTenum.obj) : error LNK2001: unresolved external symbol __imp__swprintf_s
+     1>Cheesy_Debug.lib(DXUTmisc.obj) : error LNK2019: unresolved external symbol __imp__vswprintf_s referenced in function "void __cdecl DXUTOutputDebugStringW(wchar_t const *,...)" (?DXUTOutputDebugStringW@@YAXPB_WZZ)
+     1>dxerr.lib(dxerrw.obj) : error LNK2019: unresolved external symbol __vsnwprintf referenced in function "long __stdcall StringVPrintfWorkerW(unsigned short *,unsigned int,unsigned int *,unsigned short const *,char *)" (?StringVPrintfWorkerW@@YGJPAGIPAIPBGPAD@Z)
+     1>luaplusstatic51_1201.Debug.lib(lauxlib.obj) : error LNK2019: unresolved external symbol __imp____iob_func referenced in function _luaL_loadfile
+     1>luaplusstatic51_1201.Debug.lib(lauxlib.obj) : error LNK2019: unresolved external symbol __imp__fprintf referenced in function _panic
+     1>luaplusstatic51_1201.Debug.lib(lwstrlib.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+     1>luaplusstatic51_1201.Debug.lib(LuaObject.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+     1>luaplusstatic51_1201.Debug.lib(lobject.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+     1>luaplusstatic51_1201.Debug.lib(lvm.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+     1>luaplusstatic51_1201.Debug.lib(LuaPlusAddons.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+     1>D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Debug\Game.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23

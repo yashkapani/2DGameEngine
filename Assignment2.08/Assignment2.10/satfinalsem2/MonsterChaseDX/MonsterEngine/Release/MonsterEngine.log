@@ -1,0 +1,40 @@
+﻿Build started 5/11/2015 12:03:49 AM.
+     1>Project "C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\Exports\luaplus /IC:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\Exports\Cheesy /I..\Game /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Profiling.cpp
+         Profiling.cpp
+     1>Profiling.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>Profiling.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>Profiling.cpp(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\Release\MonsterEngine.lib" /NOLOGO /LTCG Release\Actor.obj
+         Release\Asser.Win32.obj
+         Release\BitField.obj
+         Release\BlockDescriptor.obj
+         Release\ConsolePrint.Win32.obj
+         Release\DetectCollision.obj
+         Release\EngineSource.obj
+         Release\HashedString.obj
+         Release\Matrix.obj
+         Release\MemmoryManager.obj
+         Release\Messagesys.obj
+         Release\Player.obj
+         Release\InputMove.obj
+         Release\PlayerController.obj
+         Release\Profiling.obj
+         Release\Random.obj
+         Release\Renderer.obj
+         Release\SmallBlockAllocator.obj
+         Release\FloatingPoint.obj
+         Release\StringPool.obj
+         Release\Timing.Win32.obj
+         Release\Vect.obj
+         MonsterEngine.vcxproj -> C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\Release\MonsterEngine.lib
+     1>Done Building Project "C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.05

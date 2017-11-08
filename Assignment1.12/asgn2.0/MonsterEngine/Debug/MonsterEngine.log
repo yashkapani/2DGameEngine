@@ -1,0 +1,41 @@
+﻿Build started 12/13/2014 2:31:21 AM.
+     1>Project "C:\Assignment1.07\asgn2.0\MonsterEngine\MonsterEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Actor.cpp EngineSource.cpp Player.cpp InputMove.cpp Random.cpp FloatingPoint.h
+         FloatingPoint.h
+         Generating Code...
+         Compiling...
+         Actor.cpp
+         Generating Code...
+         Compiling...
+         Random.cpp
+     1>c:\assignment1.07\asgn2.0\monsterengine\random.cpp(12): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\assignment1.07\asgn2.0\monsterengine\random.cpp(13): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\assignment1.07\asgn2.0\monsterengine\random.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         InputMove.cpp
+         Player.cpp
+         EngineSource.cpp
+     1>c:\assignment1.07\asgn2.0\monsterengine\enginesource.cpp(12): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\assignment1.07\asgn2.0\monsterengine\enginesource.cpp(13): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\assignment1.07\asgn2.0\monsterengine\enginesource.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\assignment1.07\asgn2.0\monsterengine\enginesource.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Assignment1.07\asgn2.0\Debug\MonsterEngine.lib" /NOLOGO Debug\Actor.obj
+         Debug\BitField.obj
+         Debug\BlockDescriptor.obj
+         Debug\EngineSource.obj
+         Debug\MemmoryManager.obj
+         Debug\Player.obj
+         Debug\InputMove.obj
+         Debug\Random.obj
+         Debug\SmallBlockAllocator.obj
+         Debug\FloatingPoint.obj
+         Debug\Vect.obj
+     1>Player.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         MonsterEngine.vcxproj -> C:\Assignment1.07\asgn2.0\Debug\MonsterEngine.lib
+     1>Done Building Project "C:\Assignment1.07\asgn2.0\MonsterEngine\MonsterEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

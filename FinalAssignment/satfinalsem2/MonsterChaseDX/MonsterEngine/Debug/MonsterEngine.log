@@ -1,0 +1,77 @@
+﻿Build started 1/4/2016 8:53:39 PM.
+     1>Project "D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Exports\luaplus /ID:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\Exports\Cheesy /I..\Game /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\MonsterEngine.pdb" /Gd /TP /analyze- /errorReport:prompt Actor.cpp Asser.Win32.cpp BitField.cpp BlockDescriptor.cpp ConsolePrint.Win32.cpp DetectCollision.cpp EngineSource.cpp HashedString.cpp Matrix.cpp MemmoryManager.cpp MessageSystem.cpp Player.cpp InputMove.cpp PlayerController.cpp Profiling.cpp Random.cpp Renderer.cpp Resolution.cpp SmallBlockAllocator.cpp FloatingPoint.h StringPool.cpp Thread.cpp Timing.Win32.cpp Vect.cpp
+         Vect.cpp
+         Timing.Win32.cpp
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\timing.win32.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Thread.cpp
+         StringPool.cpp
+         FloatingPoint.h
+         SmallBlockAllocator.cpp
+         Resolution.cpp
+         Renderer.cpp
+         Random.cpp
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\random.cpp(12): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\random.cpp(13): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\random.cpp(14): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+         Profiling.cpp
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\profiling.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\profiling.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\profiling.cpp(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+         PlayerController.cpp
+         InputMove.cpp
+         Player.cpp
+         MessageSystem.cpp
+         MemmoryManager.cpp
+         Matrix.cpp
+         HashedString.cpp
+         EngineSource.cpp
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\enginesource.cpp(12): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\enginesource.cpp(13): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\enginesource.cpp(27): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>d:\eng1\finalassignment\satfinalsem2\monsterchasedx\monsterengine\enginesource.cpp(28): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+         DetectCollision.cpp
+         ConsolePrint.Win32.cpp
+         Generating Code...
+         Compiling...
+         BlockDescriptor.cpp
+         BitField.cpp
+         Asser.Win32.cpp
+         Actor.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\MonsterEngine\\MonsterEngine.lib" /NOLOGO Debug\Actor.obj
+         Debug\Asser.Win32.obj
+         Debug\BitField.obj
+         Debug\BlockDescriptor.obj
+         Debug\ConsolePrint.Win32.obj
+         Debug\DetectCollision.obj
+         Debug\EngineSource.obj
+         Debug\HashedString.obj
+         Debug\Matrix.obj
+         Debug\MemmoryManager.obj
+         Debug\MessageSystem.obj
+         Debug\Player.obj
+         Debug\InputMove.obj
+         Debug\PlayerController.obj
+         Debug\Profiling.obj
+         Debug\Random.obj
+         Debug\Renderer.obj
+         Debug\Resolution.obj
+         Debug\SmallBlockAllocator.obj
+         Debug\FloatingPoint.obj
+         Debug\StringPool.obj
+         Debug\Thread.obj
+         Debug\Timing.Win32.obj
+         Debug\Vect.obj
+     1>Player.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         MonsterEngine.vcxproj -> D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\MonsterEngine\\MonsterEngine.lib
+     1>Done Building Project "D:\eng1\FinalAssignment\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.18

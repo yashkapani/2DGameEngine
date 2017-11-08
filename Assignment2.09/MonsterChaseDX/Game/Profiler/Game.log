@@ -1,0 +1,14 @@
+﻿Build started 5/15/2015 10:32:19 PM.
+     1>Project "C:\Assignment 2.06\MonsterChaseDX\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Profiler\\" /Fd"Profiler\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp
+         Game.cpp
+     1>c:\assignment 2.06\monsterchasedx\game\Game.h(4): fatal error C1083: Cannot open include file: 'SharedPtr.h': No such file or directory
+         main.cpp
+     1>main.cpp(16): fatal error C1083: Cannot open include file: 'MemoryManager.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Assignment 2.06\MonsterChaseDX\Game\Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.33

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BitField.cpp" />
+    <ClCompile Include="EngineSource.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="InputMove.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Vect.cpp" />
+    <ClCompile Include="SmallBlockAllocator.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="BlockDescriptor.cpp" />
+    <ClCompile Include="MemmoryManager.cpp" />
+    <ClCompile Include="MM.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitField.h" />
+    <ClInclude Include="EngineHeader.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="IAController.h" />
+    <ClInclude Include="InputMove.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="SmallBlockAllocator.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="BlockDescriptor.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MM.h" />
+    <ClInclude Include="LinkList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Vector3.inl" />
+    <None Include="LinkList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

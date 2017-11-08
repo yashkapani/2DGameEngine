@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8} = {2EFC4010-9C09-4DE0-9E04-48989F3A31C8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonsterEngine", "MonsterEngine\MonsterEngine.vcxproj", "{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Profiling|Win32 = Profiling|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Debug|Win32.Build.0 = Debug|Win32
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Profiling|Win32.ActiveCfg = Profiling|Win32
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Profiling|Win32.Build.0 = Profiling|Win32
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Release|Win32.ActiveCfg = Release|Win32
+		{4CF1BFE4-5EF4-4F80-99CE-DF19BD99D7D5}.Release|Win32.Build.0 = Release|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Debug|Win32.Build.0 = Debug|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Profiling|Win32.ActiveCfg = Profiling|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Profiling|Win32.Build.0 = Profiling|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Release|Win32.ActiveCfg = Release|Win32
+		{2EFC4010-9C09-4DE0-9E04-48989F3A31C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

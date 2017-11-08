@@ -1,0 +1,28 @@
+﻿Build started 5/9/2015 8:25:21 PM.
+     1>Project "C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\\MonsterEngine.lib" /NOLOGO Debug\Actor.obj
+         Debug\Asser.Win32.obj
+         Debug\BitField.obj
+         Debug\BlockDescriptor.obj
+         Debug\ConsolePrint.Win32.obj
+         Debug\EngineSource.obj
+         Debug\HashedString.obj
+         Debug\Matrix.obj
+         Debug\MemmoryManager.obj
+         Debug\Player.obj
+         Debug\InputMove.obj
+         Debug\Random.obj
+         Debug\Renderer.obj
+         Debug\SmallBlockAllocator.obj
+         Debug\FloatingPoint.obj
+         Debug\StringPool.obj
+         Debug\Timing.Win32.obj
+         Debug\Vect.obj
+     1>Player.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         MonsterEngine.vcxproj -> C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\\MonsterEngine.lib
+     1>Done Building Project "C:\Users\yashk_000\Desktop\satfinalsem2\MonsterChaseDX\MonsterEngine\MonsterEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
